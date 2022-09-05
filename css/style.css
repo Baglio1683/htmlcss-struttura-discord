@@ -65,8 +65,59 @@ text-align: center;
 
 }
 
+section{
+
+justify-content: center;
+align-items: center;    
+display: flex;
+min-height: 300px;
+}
 
 
+.pink{
 
+background-color: pink;
+height: 200px;
+border: 1px dashed black;
+margin-right: 50px;
+margin-left: 50px;
+width: 67%;
+
+}
+
+.blue-back{
+background-color: blue;
+
+}
+
+.sec{
+
+justify-content: center;
+
+}
+
+.azure{
+background-color: aquamarine;
+height: 220px;
+width: 65%;
+}
+
+.light-pink{
+background-color: pink;
+height: 220px;
+width: 35%;
+}
+
+.revert{
+
+ flex-direction: row-reverse;   
+
+}
+
+
+.gray{
+
+    background-color: gray;
+}
 
 
