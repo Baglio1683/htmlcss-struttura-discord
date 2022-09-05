@@ -18,6 +18,16 @@ align-items: center;
 
 }
 
+.border-black{
+
+border: 1px dashed black;
+
+
+}
+
+
+
+
 .container{
 
 display: flex;
@@ -33,10 +43,6 @@ justify-content: start;
 
 header div{
 
-/* width: calc(100%/3);    */
-
-background-color: darkgoldenrod;
-border: 1px dashed black;
 padding-top: 7px;
 padding-bottom: 7px;
 padding-left: 5px;
@@ -45,14 +51,13 @@ padding-right: 5px;
 }
 
 .div-left{
- 
+background-color: #DAA520; 
 width: 25%;    
 text-align: left;
-
 }
 
 .div-right{
-
+background-color: #DAA520; 
 width: 25%;
 text-align: right;
 }
@@ -61,7 +66,7 @@ text-align: right;
 .div-center{
 width: 50%;
 text-align: center;
-
+background-color: #DAA520; 
 }
 
 section{
@@ -75,9 +80,8 @@ min-height: 300px;
 
 .pink{
 
-background-color: pink;
+background-color: #ee82ee;
 height: 200px;
-border: 1px dashed black;
 margin-right: 50px;
 margin-left: 50px;
 width: 67%;
@@ -96,13 +100,13 @@ justify-content: center;
 }
 
 .azure{
-background-color: aquamarine;
+background-color: #1e90ff;
 height: 220px;
 width: 65%;
 }
 
 .light-pink{
-background-color: pink;
+background-color: #FFC0CB; 
 height: 220px;
 width: 35%;
 }
@@ -116,26 +120,26 @@ width: 35%;
 
 .gray{
 
-    background-color: gray;
+    background-color: #D3D3D3;
 }
 
 .green{
 
-background-color: green;
+background-color: #228B22;
 width: 100%;
 min-height: 500px;
 }
 
 .black{
 
-background-color: black;
+background-color: #23272A
 
 }
 
 .coral{
 min-height: 450px;
 width: 28%;
-background-color: coral;
+background-color: #F08080;
 border: 1px dashed black;
 }
 
@@ -143,20 +147,20 @@ border: 1px dashed black;
 
     border: 1px dashed white;
     min-height: 450px;
-    background-color: rgb(67, 117, 224);
+    background-color: #20B2AA;
     width: 18%;
 }
 
 .final{
 
 justify-content: space-between;
-background-color: aqua;
+background-color: #7FFFD4; 
 
 }
 
 .final-botton{
 
-background-color: lightpink;
+background-color: #FFB6C1;
 border: 1px dashed black;
 padding: 4px;
 
