@@ -22,7 +22,6 @@ align-items: center;
 
 display: flex;
 width: 80%;
-background-color: brown;
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 0;
@@ -120,4 +119,45 @@ width: 35%;
     background-color: gray;
 }
 
+.green{
 
+background-color: green;
+width: 100%;
+min-height: 500px;
+}
+
+.black{
+
+background-color: black;
+
+}
+
+.coral{
+min-height: 450px;
+width: 28%;
+background-color: coral;
+border: 1px dashed black;
+}
+
+.light-blue{
+
+    border: 1px dashed white;
+    min-height: 450px;
+    background-color: rgb(67, 117, 224);
+    width: 18%;
+}
+
+.final{
+
+justify-content: space-between;
+background-color: aqua;
+
+}
+
+.final-botton{
+
+background-color: lightpink;
+border: 1px dashed black;
+padding: 4px;
+
+}
